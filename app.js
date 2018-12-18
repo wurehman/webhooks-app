@@ -33,8 +33,9 @@ app.get('/webhooks', (req, res) => {
     res.json(data);    
 })
 
-const port=process.env.PORT || 8443;
+const port=process.env.PORT || 443;
 
 https.createServer(options, app).listen(port, () => {
   console.log('Webhooks app listening on port ' + port)
 })
+
