@@ -1,0 +1,7 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}"
+    ],
+    "appService.deploySubpath": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/cf06e66a-4984-42df-bbf2-f6b8d9a15bbf/resourceGroups/appsvc_rg_linux_centralus/providers/Microsoft.Web/sites/waqas-webhooks"
+}

@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "express": "*",
+        "body-parser": "*",
+        "method-override": "*"
+    },
+    "scripts": {
+        "start": "node app.js"
+    }
+}
